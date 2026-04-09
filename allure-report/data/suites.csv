@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","15615","basictest","chromium","2026-04-06","passed","2026-04-06","","Day6\simpletest.spec.ts","",""
+"","30326","SauceHasText","chromium","2026-04-06","broken","2026-04-06","","Day6\SauceDemo.spec.ts","",""
+"","349","testfunctions","chromium","2026-04-06","passed","2026-04-06","","Day6\SauceDemo.spec.ts","",""
+"","3417","Saucedemo","chromium","2026-04-08","passed","2026-04-08","","Day19\SauceDemousingPOM.spec.ts","",""
+"","18714","Accountcreation","chromium","2026-04-09","passed","2026-04-09","","Day20\AccCreatePOMPractice.spec.ts","",""

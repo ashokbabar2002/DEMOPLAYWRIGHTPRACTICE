@@ -1,0 +1,5 @@
+Application launched successfully
+Username entered successfully
+Emailid entered successfully
+Signup button clicked successfully
+Account created successfully
