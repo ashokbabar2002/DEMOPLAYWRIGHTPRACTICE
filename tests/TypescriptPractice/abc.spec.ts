@@ -109,7 +109,7 @@ test('check_list',async({ page }) => {
 
       test("check boxes and radio buttons",async({page})=>{
        await page.goto("https://testautomationpractice.blogspot.com/")
-       const days = ['#sunday','#monday']
+       const days = ['#sunday','#monday',"#tuesday"]
        for(const checkdays of days){
         console.log(" inside for loop")
            await page.waitForTimeout(3000)
@@ -227,7 +227,7 @@ test('check_list',async({ page }) => {
           console.log(" target is todays date ")
        }
        else(targetyear<currentyear){
-        
+
        }
 
 
