@@ -115,8 +115,7 @@ test('check_list',async({ page }) => {
            await page.waitForTimeout(3000)
            await page.locator(checkdays).check()
            await page.waitForTimeout(5000)
-       }
-       
+       }       
       })
 
       test("select values from dropdown",async({page})=>{
@@ -204,48 +203,41 @@ test('check_list',async({ page }) => {
       .locator("//span[contains(text(),'Hi, I am the UI.Vision IDE')]").click()
         })
 
+    //  test("test picker",async({page})=>{
+    //  await page.goto("https://testautomationpractice.blogspot.com/")
+    //  await page.locator("#txtDate").click()
+    //  const targetdate = '12'
+    //  const targetmonth = 'May'
+    //  const targetyear = '2025'
+    //  const currentmonth = await page.locator("//select[@class='ui-datepicker-month'][@data-handler='selectMonth']//option[@selected='selected']").textContent()
+    //  const currentyear = await page.locator("//select[@class='ui-datepicker-year'][@data-handler='selectYear']//option[@selected='selected']").textContent()
+    //  const currenddate = page.locator("td[class=' ui-datepicker-days-cell-over  ui-datepicker-today']")
+    //  const todaysdate = await currenddate.innerText()
+    //  console.log(currentmonth)
+    //  console.log(currentyear)
+    //  console.log(todaysdate)
+    //   while(true)
+    //   {
+    //     console.log("inside while loop")
+    //    if(targetyear===currentyear && targetmonth===currentmonth && targetdate===todaysdate){
+    //       console.log(" target is todays date ")
+    //    }
+    //    else(targetyear<currentyear){
+    //    }   //     {break}
+    // //       }
+    // //    else{    //   }
+    //  } )  
 
-     test.only("test picker",async({page})=>{
-     await page.goto("https://testautomationpractice.blogspot.com/")
-     await page.locator("#txtDate").click()
-     
-     const targetdate = '12'
-     const targetmonth = 'May'
-     const targetyear = '2025'
-
-     const currentmonth = await page.locator("//select[@class='ui-datepicker-month'][@data-handler='selectMonth']//option[@selected='selected']").textContent()
-     const currentyear = await page.locator("//select[@class='ui-datepicker-year'][@data-handler='selectYear']//option[@selected='selected']").textContent()
-     const currenddate = page.locator("td[class=' ui-datepicker-days-cell-over  ui-datepicker-today']")
-     const todaysdate = await currenddate.innerText()
-     console.log(currentmonth)
-     console.log(currentyear)
-     console.log(todaysdate)
-      while(true)
-      {
-        console.log("inside while loop")
-       if(targetyear===currentyear && targetmonth===currentmonth && targetdate===todaysdate){
-          console.log(" target is todays date ")
-       }
-       else(targetyear<currentyear){
-
-       }
-
-
-       
-
-
-
-    //     {break}
-    //       }
-    //    else{
+     test.only("test xpaths",async({page})=>{
+      await page.goto("https://www.flipkart.com/")
+      await page.locator("span[class='b3wTlE']").click()
+      await page.locator("//span[text()='Cart']").click()
+     })
 
 
 
-    //    }   
 
 
-    //   }
-     } )  
 
 
 
